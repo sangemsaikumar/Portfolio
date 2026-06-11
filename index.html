@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Sangem Sai Kumar – DevOps & Cloud Engineer portfolio. Azure, Terraform, Kubernetes, Docker, CI/CD." />
+  <meta name="keywords" content="DevOps, Cloud Engineer, Azure, Terraform, Kubernetes, Docker, CI/CD, DevSecOps" />
+  <meta name="author" content="Sangem Sai Kumar" />
+  <title>Sangem Sai Kumar | DevOps & Cloud Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ── NAV ─────────────────────────────────────────── -->
+  <header class="nav-header" id="navHeader">
+    <nav class="nav-inner">
+      <a class="nav-logo" href="#hero" aria-label="Home"></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#profile">Profile</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certifications">Certs</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact" class="nav-cta">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- ── HERO ─────────────────────────────────────────── -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-orbs">
+      <div class="orb orb1"></div>
+      <div class="orb orb2"></div>
+      <div class="orb orb3"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-text">
+        <p class="hero-eyebrow">
+          <span class="terminal-dot"></span> Available for opportunities
+        </p>
+        <h1 class="hero-name">Sangem<br /><span class="accent-gradient">Sai Kumar</span></h1>
+        <p class="hero-role">
+          <span class="typed-text" id="typedText"></span><span class="typed-cursor">|</span>
+        </p>
+        <p class="hero-summary">
+          Aspiring DevOps engineer with a strong foundation in Azure Cloud, Terraform,
+          Kubernetes, and Docker. Passionate about automating infrastructure, streamlining
+          CI/CD pipelines, and building reliable, scalable systems that enable teams to
+          ship faster and safer.
+        </p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">Contact Me</a>
+          <a href="#profile" class="btn btn-ghost">View Profile</a>
+          <a href="resume.pdf" class="btn btn-ghost" download="resume.pdf">Download Resume</a>
+        </div>
+        <div class="hero-socials">
+          <a href="https://www.linkedin.com/in/sangem-sai-kumar-374b92201" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452H17.1v-5.57c0-1.328-.024-3.037-1.85-3.037-1.851 0-2.134 1.445-2.134 2.939v5.668H9.769V9h3.2v1.561h.046c.445-.844 1.533-1.734 3.156-1.734 3.376 0 3.999 2.222 3.999 5.112v6.513zM5.337 7.433a1.857 1.857 0 1 1 0-3.714 1.857 1.857 0 0 1 0 3.714zm1.601 13.019H3.734V9h3.204v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          </a>
+          <a href="mailto:saikumarsangem1618@gmail.com" aria-label="Email">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          </a>
+          <a href="tel:9959345501" aria-label="Phone">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13.5a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 2.69h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 10.09a16 16 0 0 0 6 6l1.46-1.46a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="avatar-ring">
+          <div class="avatar-inner">
+            <img src="profile.JPG" alt="Sangem Sai Kumar profile photo" class="hero-avatar" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ── PROFILE ────────────────────────────────────────── -->
+  <section class="section" id="profile">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow">Profile</p>
+        <h2 class="section-title">Personal <span class="accent-gradient">Profile</span></h2>
+      </div>
+      <div class="profile-grid">
+        <article class="profile-card glass-card reveal">
+          <div class="profile-avatar"><img src="profile.JPG" alt="Sangem Sai Kumar profile photo" /></div>
+          <div>
+            <h3>Sangem Sai Kumar</h3>
+            <p>DevOps engineer building cloud-ready infrastructure, secure delivery pipelines, and reliable automation on Azure.</p>
+          </div>
+          <div class="profile-meta">
+            <div class="profile-meta-item"><span>Location</span><span>Hyderabad, India</span></div>
+            <div class="profile-meta-item"><span>Experience</span><span>1+ Year</span></div>
+            <div class="profile-meta-item"><span>Focus</span><span>Cloud · DevOps · Platform</span></div>
+          </div>
+        </article>
+        <aside class="profile-details glass-card reveal">
+          <h3>Profile Highlights</h3>
+          <div class="profile-list">
+            <div class="profile-list-item"><strong>About me</strong><span>Bridging development and operations with cloud automation, IaC, and observability.</span></div>
+            <div class="profile-list-item"><strong>Strengths</strong><span>Azure, Terraform, CI/CD, container orchestration, and secure delivery.</span></div>
+            <div class="profile-list-item"><strong>Goal</strong><span>Pursue DevSecOps, SRE, and platform engineering roles in product-driven organizations.</span></div>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── ABOUT ─────────────────────────────────────────── -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow">About</p>
+        <h2 class="section-title">Building Infrastructure,<br /><span class="accent-gradient">Enabling Teams</span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>
+            I'm a DevOps engineer who bridges the gap between development velocity and
+            operational reliability. With an unconventional path — from Mechanical Engineering
+            through an MTech in CAD/CAM to cloud infrastructure — I bring a systems-thinking
+            mindset to every pipeline, container, and deployment I touch.
+          </p>
+          <p>
+            At Cognizant, I sharpened my instinct for quality and process consistency while
+            contributing to Google's geo-abuse prevention systems. I transitioned to the
+            quality management team within two months — a reflection of how quickly I adapt and
+            deliver in complex environments.
+          </p>
+          <p>
+            My current focus is designing automated, secure, and observable cloud infrastructure
+            on Azure using Terraform, Kubernetes, and Azure DevOps CI/CD pipelines. I'm
+            targeting roles in DevSecOps, Platform Engineering, and Site Reliability Engineering
+            at product-driven organizations.
+          </p>
+          <div class="about-stats">
+            <div class="stat-card">
+              <span class="stat-num counter" data-target="1">0</span>
+              <span class="stat-label">Year Experience</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-num counter" data-target="6">0</span>
+              <span class="stat-label">Core Technologies</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-num counter" data-target="1">0</span>
+              <span class="stat-label">Cloud Certification</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-terminal reveal">
+          <div class="terminal-window">
+            <div class="terminal-bar">
+              <span class="t-dot t-red"></span>
+              <span class="t-dot t-yellow"></span>
+              <span class="t-dot t-green"></span>
+              <span class="t-title">saikumar@devops ~ zsh</span>
+            </div>
+            <div class="terminal-body">
+              <p><span class="t-prompt">$</span> whoami</p>
+              <p class="t-out">sangem-sai-kumar</p>
+              <p><span class="t-prompt">$</span> cat skills.yaml</p>
+              <p class="t-out t-key">cloud: <span class="t-val">Azure</span></p>
+              <p class="t-out t-key">iac: <span class="t-val">Terraform</span></p>
+              <p class="t-out t-key">containers: <span class="t-val">Docker, Kubernetes</span></p>
+              <p class="t-out t-key">cicd: <span class="t-val">Azure DevOps</span></p>
+              <p class="t-out t-key">vcs: <span class="t-val">Git</span></p>
+              <p><span class="t-prompt">$</span> echo $GOAL</p>
+              <p class="t-out">DevSecOps | SRE | Platform Engineering</p>
+              <p><span class="t-prompt">$</span> <span class="t-cursor">▋</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── SKILLS ─────────────────────────────────────────── -->
+  <section class="section section-alt" id="skills">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow">Skills</p>
+        <h2 class="section-title">Technical <span class="accent-gradient">Arsenal</span></h2>
+      </div>
+      <div class="skills-grid">
+
+        <div class="skill-category reveal">
+          <div class="skill-cat-header">
+            <span class="skill-cat-icon">☁</span>
+            <h3>Cloud Platform</h3>
+          </div>
+          <div class="skill-items">
+            <div class="skill-item">
+              <span>Microsoft Azure</span>
+            </div>
+            <div class="skill-item">
+              <span>Azure Services</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category reveal">
+          <div class="skill-cat-header">
+            <span class="skill-cat-icon">⚙</span>
+            <h3>CI/CD & DevOps</h3>
+          </div>
+          <div class="skill-items">
+            <div class="skill-item">
+              <span>Azure DevOps</span>
+            </div>
+            <div class="skill-item">
+              <span>Git & Version Control</span>
+            </div>
+            <div class="skill-item">
+              <span>Apache Maven</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category reveal">
+          <div class="skill-cat-header">
+            <span class="skill-cat-icon">📦</span>
+            <h3>Containerization</h3>
+          </div>
+          <div class="skill-items">
+            <div class="skill-item">
+              <span>Docker</span>
+            </div>
+            <div class="skill-item">
+              <span>Kubernetes</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category reveal">
+          <div class="skill-cat-header">
+            <span class="skill-cat-icon">🏗</span>
+            <h3>Infrastructure as Code</h3>
+          </div>
+          <div class="skill-items">
+            <div class="skill-item">
+              <span>Terraform</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category reveal">
+          <div class="skill-cat-header">
+            <span class="skill-cat-icon">🔒</span>
+            <h3>Security & Quality</h3>
+          </div>
+          <div class="skill-items">
+            <div class="skill-item">
+              <span>SonarQube</span>
+            </div>
+            <div class="skill-item">
+              <span>Trivy (Security Scanning)</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Tech tag cloud -->
+      <div class="tag-cloud reveal">
+        <span class="tech-tag">Azure DevOps</span>
+        <span class="tech-tag">Terraform</span>
+        <span class="tech-tag">Kubernetes</span>
+        <span class="tech-tag">Docker</span>
+        <span class="tech-tag">Git</span>
+        <span class="tech-tag">Maven</span>
+        <span class="tech-tag">SonarQube</span>
+        <span class="tech-tag">Trivy</span>
+        <span class="tech-tag">CI/CD Pipelines</span>
+        <span class="tech-tag">Self-Hosted Agents</span>
+        <span class="tech-tag">Cloud Fundamentals</span>
+        <span class="tech-tag">DevSecOps</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── EXPERIENCE ─────────────────────────────────────── -->
+  <section class="section" id="experience">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow">Experience</p>
+        <h2 class="section-title">Professional <span class="accent-gradient">Journey</span></h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card glass-card">
+            <div class="exp-header">
+              <div>
+                <h3 class="exp-role">Process Executive – Quality Management</h3>
+                <p class="exp-company">Cognizant Technology Solutions</p>
+              </div>
+              <span class="exp-duration">Nov 2024 – Dec 2025</span>
+            </div>
+            <p class="exp-project">Project: Google (CMA – Geo Abuse)</p>
+            <ul class="exp-bullets">
+              <li>Contributed to Google's geo-abuse prevention initiative as part of Cognizant's delivery team, ensuring accurate and high-quality content moderation at scale.</li>
+              <li>Consistently met and exceeded production, quality, and performance benchmarks every month throughout the engagement.</li>
+              <li>Fast-tracked into the quality management team within two months of onboarding — one of the fastest transitions on the team — demonstrating strong analytical skills and attention to detail.</li>
+              <li>Developed a systematic approach to quality assurance that reduced rework cycles and improved team throughput.</li>
+            </ul>
+            <div class="exp-tags">
+              <span>Quality Management</span>
+              <span>Google Cloud Project</span>
+              <span>Process Improvement</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── PROJECTS ─────────────────────────────────────────── -->
+  <section class="section section-alt" id="projects">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow">Projects</p>
+        <h2 class="section-title">What I've <span class="accent-gradient">Built</span></h2>
+      </div>
+      <div class="projects-grid">
+        <div class="project-card reveal featured-project glass-card">
+          <div class="project-featured-badge">⭐ Featured Project</div>
+          <div class="project-header">
+            <div class="project-icon">
+              <svg viewBox="0 0 40 40" fill="none">
+                <rect width="40" height="40" rx="10" fill="url(#pg1)"/>
+                <defs><linearGradient id="pg1" x1="0" y1="0" x2="40" y2="40"><stop stop-color="#0078d4"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient></defs>
+                <path d="M10 28 L20 12 L30 28 H22 L20 24 L18 28H10Z" fill="white" opacity="0.9"/>
+              </svg>
+            </div>
+            <div class="project-links">
+              <a href="#" aria-label="GitHub" class="project-link">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0 0 22 12.017C22 6.484 17.522 2 12 2z"/></svg>
+              </a>
+              <a href="#" aria-label="Live Demo" class="project-link">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">Board Game App – CI/CD Automation</h3>
+          <p class="project-org">Azure DevOps Pipeline Project</p>
+          <p class="project-desc">
+            Designed and deployed a complete CI/CD pipeline for a Java-based Board Game
+            application using Azure DevOps Classic Editor. The pipeline automated every stage
+            from build through security scanning to deployment, with quality gates preventing
+            insecure or low-quality code from reaching production.
+          </p>
+          <div class="project-achievements">
+            <h4>Key Achievements</h4>
+            <ul>
+              <li>Reduced manual deployment steps to zero via full pipeline automation</li>
+              <li>Integrated SonarQube quality gates to enforce code standards pre-deployment</li>
+              <li>Added Trivy vulnerability scanning to block insecure artifact deployments</li>
+              <li>Configured self-hosted agent pools for optimized pipeline execution speed</li>
+              <li>Maintained consistent build artifact integrity with Maven dependency management</li>
+            </ul>
+          </div>
+          <div class="project-tech-stack">
+            <span>Azure DevOps</span>
+            <span>Java</span>
+            <span>Maven</span>
+            <span>SonarQube</span>
+            <span>Trivy</span>
+            <span>Git</span>
+            <span>CI/CD</span>
+            <span>Self-Hosted Agents</span>
+          </div>
+        </div>
+        <div class="project-card reveal glass-card">
+          <div class="project-header">
+            <div class="project-icon">
+              <svg viewBox="0 0 40 40" fill="none">
+                <rect width="40" height="40" rx="10" fill="url(#pg2)"/>
+                <defs><linearGradient id="pg2" x1="0" y1="0" x2="40" y2="40"><stop stop-color="#FF9800"/><stop offset="1" stop-color="#FF7043"/></linearGradient></defs>
+                <path d="M10 28 L20 12 L30 28 H22 L20 24 L18 28H10Z" fill="white" opacity="0.9"/>
+              </svg>
+            </div>
+            <div class="project-links">
+              <a href="#" aria-label="Repo" class="project-link">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0 0 22 12.017C22 6.484 17.522 2 12 2z"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">Azure DevOps CI/CD Deployment of .NET E-Commerce Application</h3>
+          <p class="project-org">Azure DevOps  .NET</p>
+          <p class="project-desc">
+            Designed, implemented, and deployed a .NET-based E-Commerce application using
+            Azure DevOps CI/CD pipelines. Automated source control, build validation,
+            artifact generation, and deployment to Azure App Service following DevOps best
+            practices for automation and release management.
+          </p>
+          <div class="project-achievements">
+            <h4>Key Responsibilities</h4>
+            <ul>
+              <li>Developed and maintained the .NET E-Commerce application codebase</li>
+              <li>Managed source code using Azure Repos (Git)</li>
+              <li>Configured Azure DevOps CI pipelines for build validation and unit testing</li>
+              <li>Configured CD pipelines to deploy artifacts to Azure App Service</li>
+              <li>Managed artifacts and releases, and resolved build/release issues</li>
+              <li>Monitored deployments and applied DevOps best practices for automation</li>
+            </ul>
+          </div>
+          <div class="project-tech-stack">
+            <span>Azure DevOps</span>
+            <span>.NET</span>
+            <span>Azure App Service</span>
+            <span>Azure Repos (Git)</span>
+            <span>CI/CD</span>
+            <span>Release Management</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CERTIFICATIONS ─────────────────────────────────── -->
+  <section class="section" id="certifications">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow">Certifications</p>
+        <h2 class="section-title">Validated <span class="accent-gradient">Expertise</span></h2>
+      </div>
+      <div class="certs-grid">
+        <div class="cert-card glass-card reveal">
+          <div class="cert-badge">
+            <svg viewBox="0 0 60 60" fill="none">
+              <circle cx="30" cy="30" r="28" stroke="var(--accent-blue)" stroke-width="2"/>
+              <circle cx="30" cy="30" r="20" fill="url(#cb1)" opacity="0.2"/>
+              <defs><linearGradient id="cb1" x1="0" y1="0" x2="60" y2="60"><stop stop-color="#0078d4"/><stop offset="1" stop-color="#00b4d8"/></linearGradient></defs>
+              <text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" fill="var(--accent-blue)" font-size="18" font-weight="700">Az</text>
+            </svg>
+          </div>
+          <div class="cert-info">
+            <h3 class="cert-name">Azure Cloud with DevOps</h3>
+            <p class="cert-org">Vcube Software Solutions</p>
+            <p class="cert-desc">
+              Comprehensive training covering Azure cloud fundamentals, DevOps practices,
+              CI/CD pipeline implementation, containerization with Docker and Kubernetes,
+              and Infrastructure as Code with Terraform.
+            </p>
+          </div>
+          <div class="cert-skills-covered">
+            <span>Azure</span><span>DevOps</span><span>Terraform</span><span>K8s</span><span>Docker</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── EDUCATION ─────────────────────────────────────────── -->
+  <section class="section section-alt" id="education">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow">Education</p>
+        <h2 class="section-title">Academic <span class="accent-gradient">Background</span></h2>
+      </div>
+      <div class="edu-timeline">
+
+        <div class="edu-item reveal">
+          <div class="edu-year">2024</div>
+          <div class="edu-card glass-card">
+            <div class="edu-degree">Master of Technology – CAD/CAM</div>
+            <div class="edu-school">Chaitanya Bharathi Institute of Technology</div>
+            <div class="edu-period">2022 – 2024</div>
+            <p class="edu-note"></p>
+          </div>
+        </div>
+
+        <div class="edu-item reveal">
+          <div class="edu-year">2022</div>
+          <div class="edu-card glass-card">
+            <div class="edu-degree">Bachelor of Technology – Mechanical Engineering</div>
+            <div class="edu-school">Malla Reddy Engineering College and Management Sciences</div>
+            <div class="edu-period">2019 – 2022</div>
+          </div>
+        </div>
+
+        <div class="edu-item reveal">
+          <div class="edu-year">2018</div>
+          <div class="edu-card glass-card">
+            <div class="edu-degree">Diploma – Mechanical Engineering</div>
+            <div class="edu-school">Ellenki College of Engineering and Technology</div>
+            <div class="edu-period">2015 – 2018</div>
+          </div>
+        </div>
+
+        <div class="edu-item reveal">
+          <div class="edu-year">2015</div>
+          <div class="edu-card glass-card">
+            <div class="edu-degree">Secondary School</div>
+            <div class="edu-school">Sri Rao's High School</div>
+            <div class="edu-period">2015</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CONTACT ─────────────────────────────────────────── -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow">Contact</p>
+        <h2 class="section-title">Let's <span class="accent-gradient">Connect</span></h2>
+        <p class="section-sub">Open to DevOps, Cloud, DevSecOps, SRE, and Platform Engineering roles.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <a href="mailto:saikumarsangem1618@gmail.com" class="contact-card glass-card">
+            <span class="contact-icon">✉</span>
+            <div>
+              <p class="contact-label">Email</p>
+              <p class="contact-value">saikumarsangem1618@gmail.com</p>
+            </div>
+          </a>
+          <a href="tel:9959345501" class="contact-card glass-card">
+            <span class="contact-icon">☎</span>
+            <div>
+              <p class="contact-label">Phone</p>
+              <p class="contact-value">+91 99593 45501</p>
+            </div>
+          </a>
+          <a href="https://www.linkedin.com/in/sangem-sai-kumar-374b92201" target="_blank" rel="noopener" class="contact-card glass-card">
+            <span class="contact-icon">in</span>
+            <div>
+              <p class="contact-label">LinkedIn</p>
+              <p class="contact-value">sangem-sai-kumar-374b92201</p>
+            </div>
+          </a>
+          <a href="https://github.com/" target="_blank" rel="noopener" class="contact-card glass-card">
+            <span class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor" style="width:22px;height:22px"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0 0 22 12.017C22 6.484 17.522 2 12 2z"/></svg>
+            </span>
+            <div>
+              <p class="contact-label">GitHub</p>
+              <p class="contact-value">github.com/saikumar</p>
+            </div>
+          </a>
+        </div>
+        <!-- contact form removed -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ─────────────────────────────────────────── -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <a class="nav-logo" href="#hero" aria-label="Home"></a>
+        <p class="footer-copy">© 2025. Built with HTML, CSS & vanilla JS.</p>
+        <div class="footer-links"></div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll to top -->
+  <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
